@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ecommerceapplication.MainActivity">
+    <group android:checkableBehavior="single">
+
+    <item
+    android:id="@+id/actionHome"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:orderInCategory="100"
+    android:title="Home"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionwishlist"
+        android:icon="@drawable/ic_bookmark_border_black_24dp"
+        android:orderInCategory="100"
+        android:title="Wishlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionNotification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:orderInCategory="100"
+        android:title="Notification"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionAccount"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:orderInCategory="100"
+        android:title="Account"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionAdmin"
+        android:icon="@drawable/ic_playlist_add_black_24dp"
+        android:orderInCategory="100"
+        android:title="Admin"
+        app:showAsAction="never" />
+    </group>
+</menu>
